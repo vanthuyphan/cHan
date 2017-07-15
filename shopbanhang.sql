@@ -1674,7 +1674,7 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'Admin', '$P$BIyJPcCS8c2c2oiJLlmikhsHoXAeQu1', 'admin', 'huykira@gmail.com', '', '2016-03-28 13:56:21', '', 0, 'Admin');
+(1, 'Admin', '$1$m7WaY2mW$/Ta3VQ9rKSoYarsY7Ehvg/', 'admin', 'vanthuyphan@gmail.com', '', '2016-03-28 13:56:21', '', 0, 'Admin');
 
 -- --------------------------------------------------------
 
