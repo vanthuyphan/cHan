@@ -59,7 +59,6 @@ p {
 	border-left: 4px solid #00a0d2;
 	padding: 12px;
 	margin-left: 0;
-	margin-bottom: 20px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
@@ -217,6 +216,19 @@ p {
 	width: 100%;
 }
 
+.mobile #login {
+	padding: 20px 0;
+}
+
+.mobile #login form {
+	margin-left: 0;
+}
+
+.mobile #login #nav,
+.mobile #login #backtoblog {
+	margin-left: 8px;
+}
+
 body.interim-login {
 	height: auto;
 }
@@ -241,12 +253,6 @@ body.interim-login {
 
 @-ms-viewport {
 	width: device-width;
-}
-
-@media screen and ( max-height: 550px ) {
-	#login {
-		padding: 20px 0;
-	}
 }
 
 @media screen and ( max-width: 782px ) {
