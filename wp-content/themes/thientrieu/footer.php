@@ -48,7 +48,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="copyright"> <?php echo $hk_options[copyr]; ?> - Xây dựng và phát triển bởi <a href="http://huykira.net">Huy Kira</a> </div>
+			<div class="copyright"> <?php echo $hk_options[copyr]; ?></div>
 		</div> <!-- end footer -->
 	</div> <!-- end wrapper -->
 	<script type="text/javascript" src="<?php bloginfo('template_directory' ); ?>/js/jquery-1.9.1.js"></script>
