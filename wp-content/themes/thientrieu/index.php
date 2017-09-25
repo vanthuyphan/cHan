@@ -17,7 +17,7 @@
 			</div> <!-- end block-slider -->
 			<div class="block-product">
 				<ul class="list-news">
-					<?php $args = array( 'post_type' => 'product','posts_per_page' =>15,); ?>
+					<?php $args = array( 'post_type' => 'product',50,); ?>
 			        <?php $getposts = new WP_query( $args);?>
 			        <?php global $wp_query; $wp_query->in_the_loop = true; ?>
 			        <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
