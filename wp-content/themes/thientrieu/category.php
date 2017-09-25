@@ -2,7 +2,7 @@
 <div class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-9">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div class="main-category">
 					<h1 class="title"><span><?php single_cat_title(); ?></span></h1>
 					<div class="content-cat">
@@ -47,11 +47,6 @@
 					    ?>
 					</div>
 					<?php } ?>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-3">
-				<div class="sidebar">
-					<?php get_sidebar(); ?>
 				</div>
 			</div>
 		</div>

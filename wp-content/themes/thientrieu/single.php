@@ -4,7 +4,7 @@
 <div id="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-9">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div class="main-single">
 					<h1 class="title-single"><?php the_title(); ?></h1>
 					<div class="meta meta-single">
@@ -64,11 +64,6 @@
 							<?php endif; wp_reset_postdata(); ?>
 						</ul>
 					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-3">
-				<div class="sidebar">
-					<?php get_sidebar(); ?>
 				</div>
 			</div>
 		</div>
