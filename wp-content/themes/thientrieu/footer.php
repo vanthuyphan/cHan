@@ -1,7 +1,7 @@
 		<div id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-3 col-xs-6">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 					<?php $getposts = new WP_query(); $getposts->query('post_status=publish&p=2&post_type=page'); ?>
 					<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 					<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -9,25 +9,7 @@
 						<p><?php echo teaser(50); ?><a style="color:#fff" href="<?php the_permalink(); ?>">Xem thêm</a></p>
 					<?php endwhile; wp_reset_postdata(); ?>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-6">
-						<h3>Thời trang</h3>
-						<ul>
-						<!-- Get category -->
-						<?php $args = array( 
-						    'hide_empty' => 0,
-						    'taxonomy' => 'product_cat',
-						    'orderby' => id,
-						    'parent' => 0
-						    ); 
-						    $cates = get_categories( $args ); 
-						    foreach ( $cates as $cate ) {  ?>
-								<li>
-									<a href="<?php echo get_term_link($cate->slug, 'product_cat'); ?>"><?php echo $cate->name ?></a>
-								</li>
-						<?php } ?>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-6">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<h3>Tài khoản</h3>
 						<ul>
 							<li><a href="<?php bloginfo('url'); ?>/tai-khoan">Tài khoản của bạn</a></li>
@@ -36,7 +18,7 @@
 							<li><a href="<?php bloginfo('url'); ?>/">Liên hệ</a></li>
 						</ul>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-6">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 					<?php global $hk_options; ?>
 						<h3>Liên hệ với chúng tôi</h3>
 						<p>
