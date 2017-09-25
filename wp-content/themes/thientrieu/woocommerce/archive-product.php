@@ -23,7 +23,7 @@ get_header( 'shop' ); ?>
 	<div class="tm-bot-ct">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-9">
+				<div class="col-xs-12 col-sm-12 col-md-12">
 					<div class="block-product">
 						<div class="tm-news">
 							<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
@@ -108,16 +108,6 @@ get_header( 'shop' ); ?>
 							</div>
 						</div>
 					</div> <!-- end bot-ct-lf -->
-					<div class="col-xs-12 col-sm-12 col-md-3 bot-ct-rg">
-						<?php
-							/**
-							 * woocommerce_sidebar hook.
-							 *
-							 * @hooked woocommerce_get_sidebar - 10
-							 */
-							do_action( 'woocommerce_sidebar' );
-						?>
-					</div> <!-- end bot-ct-rg -->
 			</div>
 			<div class="clear"></div>
 		</div>
