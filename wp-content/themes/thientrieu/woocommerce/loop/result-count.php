@@ -29,7 +29,7 @@ if ( ! woocommerce_products_will_display() )
 <p class="woocommerce-result-count">
 	<?php
 	$paged    = max( 1, $wp_query->get( 'paged' ) );
-	$per_page = $wp_query->get( 'posts_per_page' );
+	$per_page = 50;
 	$total    = $wp_query->found_posts;
 	$first    = ( $per_page * $paged ) - $per_page + 1;
 	$last     = min( $total, $wp_query->get( 'posts_per_page' ) * $paged );
