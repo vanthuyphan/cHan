@@ -23,7 +23,7 @@ get_header( 'shop' ); ?>
 <div id="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-9">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div class="bot-ct-lf">
 					<div class="tm-news">
 						<?php while ( have_posts() ) : the_post(); ?>
@@ -36,11 +36,6 @@ get_header( 'shop' ); ?>
 			            <div class="fb-comments" data-href="<?php the_permalink();?>" data-width="100%"></div>
 			        </div>
 				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-3">
-				<div class="bot-ct-rg">
-					<?php do_action( 'woocommerce_sidebar' ); ?>
-				</div> <!-- end bot-ct-rg -->
 			</div>
 			<div class="clear"></div>
 		</div>
