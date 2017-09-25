@@ -281,7 +281,9 @@ ul.block-banner img {
 .copyright a {
     color: #7772a2;
 }
-
+.sidebar {
+    display: none;
+}
 .block-product ul li a.img img{
     -webkit-transform: rotateY(0);
     -ms-transform: rotateY(0);
